@@ -93,7 +93,7 @@ export const HeroSection = () => {
                 onMouseLeave={() => setRobotHover(0)}>
                 <img
                   ref={robotRef}
-                  src="/src/assets/0_fyr1pj-XIXkPvAOo.png"
+                  src="/assets/0_fyr1pj-XIXkPvAOo.png"
                   alt="Digital Innovation"
                   className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl transition-transform duration-700 group-hover:scale-105 max-h-[50vh] sm:max-h-none object-cover z-10 relative"
                   style={{ position: "relative", zIndex: "5" }}
@@ -103,7 +103,7 @@ export const HeroSection = () => {
                 {/* Robot Images - Mobile */}
                 <div className="absolute -top-8 -right-4 w-48 h-48 z-20 overflow-visible">
                   <img
-                    src="/src/assets/robot-1.png"
+                    src="/assets/robot-1.png"
                     alt="Robot 1"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 0
                       ? "translate-y-0 opacity-100 rotate-3"
@@ -114,7 +114,7 @@ export const HeroSection = () => {
                     style={{ clipPath: "none", position: "absolute" }}
                   />
                   <img
-                    src="/src/assets/robot-2.png"
+                    src="/assets/robot-2.png"
                     alt="Robot 2"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 1
                       ? "translate-y-0 opacity-100 rotate-3"
@@ -125,7 +125,7 @@ export const HeroSection = () => {
                     style={{ clipPath: "none", position: "absolute" }}
                   />
                   <img
-                    src="/src/assets/robot-3.png"
+                    src="/assets/robot-3.png"
                     alt="Robot 3"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 2
                       ? "translate-y-0 opacity-100 rotate-3"
@@ -179,7 +179,7 @@ export const HeroSection = () => {
                 onMouseEnter={() => setRobotHover(1)}
                 onMouseLeave={() => setRobotHover(0)}>
                 <img
-                  src="/src/assets/0_fyr1pj-XIXkPvAOo.png"
+                  src="/assets/0_fyr1pj-XIXkPvAOo.png"
                   alt="Digital Innovation"
                   className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl transition-transform duration-700 group-hover:scale-105 max-h-[50vh] sm:max-h-none object-cover z-10 relative"
                   style={{ position: "relative", zIndex: "5" }}
@@ -189,7 +189,7 @@ export const HeroSection = () => {
                 {/* Robot Images - Desktop */}
                 <div className="absolute -top-16 -right-8 w-80 h-80 z-20 overflow-visible">
                   <img
-                    src="/src/assets/robot-1.png"
+                    src="/assets/robot-1.png"
                     alt="Robot 1"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 0
                       ? "translate-y-0 opacity-100 rotate-3"
@@ -200,7 +200,7 @@ export const HeroSection = () => {
                     style={{ clipPath: "none", position: "absolute" }}
                   />
                   <img
-                    src="/src/assets/robot-2.png"
+                    src="/assets/robot-2.png"
                     alt="Robot 2"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 1
                       ? "translate-y-0 opacity-100 rotate-3"
@@ -211,7 +211,7 @@ export const HeroSection = () => {
                     style={{ clipPath: "none", position: "absolute" }}
                   />
                   <img
-                    src="/src/assets/robot-3.png"
+                    src="/assets/robot-3.png"
                     alt="Robot 3"
                     className={`absolute inset-0 w-full h-full object-contain transition-all duration-500 transform ${robotHover === 2
                       ? "translate-y-0 opacity-100 rotate-3"

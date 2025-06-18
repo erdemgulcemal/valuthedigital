@@ -140,7 +140,7 @@ export const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 to-blue-500/20 rounded-2xl sm:rounded-3xl blur-2xl transform group-hover:scale-105 transition-transform duration-700"></div>
               <div className="relative z-10">
                 <img
-                  src="/src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
+                  src="/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
                   alt="About Us"
                   className="w-full h-auto rounded-2xl sm:rounded-3xl shadow-2xl transform transition-all duration-500 group-hover:scale-105"
                 />

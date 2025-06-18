@@ -85,21 +85,21 @@ const About = () => {
             role: "Kurucu & Geliştirici",
             experience: "2+ yıl deneyim",
             expertise: ["Full-Stack Development", "React/TypeScript", "UI/UX Design"],
-            image: "/src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
+            image: "/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
         },
         {
             name: "Takım Üyeleri",
             role: "Freelance Uzmanlar",
             experience: "Proje Bazlı",
             expertise: ["Grafik Tasarım", "İçerik Yazımı", "SEO Optimizasyonu"],
-            image: "/src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
+            image: "/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
         },
         {
             name: "Danışmanlar",
             role: "Sektör Uzmanları",
             experience: "5+ yıl deneyim",
             expertise: ["İş Geliştirme", "Proje Yönetimi", "Müşteri İlişkileri"],
-            image: "/src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
+            image: "/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
         }
     ];
 
@@ -245,7 +245,7 @@ const About = () => {
                                 <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/30 to-blue-500/30 rounded-2xl sm:rounded-3xl blur-2xl sm:blur-3xl transform group-hover:scale-110 transition-transform duration-700"></div>
                                 <div className="relative overflow-hidden rounded-2xl sm:rounded-3xl">
                                     <img
-                                        src="/src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
+                                        src="/assets/-a-young-male-web-designer-with-glasses--wearing-j.png"
                                         alt="Valuthe Digital Team"
                                         className="w-full h-auto transform transition-all duration-700 group-hover:scale-110"
                                     />

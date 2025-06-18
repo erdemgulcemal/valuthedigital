@@ -6,7 +6,7 @@ export const ServicesSection = () => {
   const navigate = useNavigate();
   const services = [
     {
-      image: "src/assets/-a-young-male-web-designer-with-glasses--wearing-j.png",
+      image: "/assets/-a-young-male-web-designer-with-glasses--wearing-j.png",
       title: "Web Tasarım",
       description: "Modern, kullanıcı dostu ve responsive web tasarımları ile markanızı dijital dünyada öne çıkarın.",
       features: ["Profesyonel Tasarım", "Kusursuz Kullanıcı Deneyimi", "Marka Kimliği"],
@@ -16,7 +16,7 @@ export const ServicesSection = () => {
       isExternal: false
     },
     {
-      image: "src/assets/software.png",
+      image: "/assets/software.png",
       title: "Web Geliştirme",
       description: "Modern teknolojilerle hızlı, güvenli ve ölçeklenebilir web uygulamaları geliştiriyoruz.",
       features: ["Hızlı Çözüm", "Güvenli Yönetim", "Cross-Platform"],
@@ -26,7 +26,7 @@ export const ServicesSection = () => {
       isExternal: false
     },
     {
-      image: "src/assets/cep-telefonun-i-inde-bir-web-sitesi-.png",
+      image: "/assets/cep-telefonun-i-inde-bir-web-sitesi-.png",
       title: "Mobil Uyumluluk",
       description: "Tüm cihazlarda mükemmel görünen ve çalışan mobil-öncelikli web siteleri geliştiriyoruz.",
       features: ["Mobil Optimizasyon", "Cross-Platform Uyumluluk", "Progressive Web App"],
@@ -36,7 +36,7 @@ export const ServicesSection = () => {
       isExternal: false
     },
     {
-      image: "src/assets/seo.png",
+      image: "/assets/seo.png",
       title: "SEO Optimizasyonu",
       description: "Arama motorlarında üst sıralarda yer almanız için teknik SEO ve içerik optimizasyonu.",
       features: ["Teknik SEO", "İçerik Stratejisi", "Analytics Kurulumu"],
